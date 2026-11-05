@@ -46,6 +46,12 @@ So:
 The bridge listens on loopback only, and the token changes at every start. It has no other guard.
 These scripts are demos, not products.
 
+In production, run the app in a sandbox of its own, with only the files it needs. Then give the
+bridge to spore's runner as a
+[source](https://github.com/RHIZOGRIP/spore/blob/main/docs/operating.md#sources-sourcesjson), so the
+agent asks for it by name and never holds its address or its token. A source speaks HTTP, so these
+bridges would need an HTTP front first. We haven't built that.
+
 ## Adding a demo
 
 Any app with a scripting runtime inside it will do. Copy a bridge, and change how it runs code on
