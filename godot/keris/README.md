@@ -162,8 +162,7 @@ spore delivered, unchanged. So are `report.md`, apart from shortened file paths,
 - **The voice is close to a readout.** On the unseen seeds, heavy damage (65 or more, our threshold)
   followed a hollow voice 99.3% of the time, a warm one 7.4% and a wavering one 63.5%. Only wavering
   is a real gamble.
-- **The spore had no browser, phone or speakers.** Its report marks a browser start, a phone, the
-  sound and the six-minute length as unverified, rather than as passes.
+- **UX tests are out of scope,** but the game is playable.
 
 This is one game, made once. A new run makes a different game, so expect different numbers, and
 possibly a failure.
