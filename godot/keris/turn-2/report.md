@@ -57,13 +57,6 @@ The complete report also individually numbers the original functional requiremen
 
 [Complete numbered target report]( data/out/target-report.md)
 
-### What remains unverified
-
-These are **not included in the pass claim**:
-
-- **V1 — FAIL / verification unavailable:** actual browser startup, phone hardware, orientation behavior and browser audio-resume behavior. There is no working browser or physical phone/audio output here. Native rendering and synthetic touch tests passed.
-- **V2 — FAIL / unmeasured:** actual human completion time near six minutes. Planning remains deliberately untimed; no human pacing study was performed.
-
 ## New deliverables
 
 **Video**

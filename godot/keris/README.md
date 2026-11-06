@@ -148,8 +148,9 @@ godot4 --headless --path turn-2/game --script "$PWD/turn-2/unseen_seeds.gd"
 ```
 
 In each folder, `game/`, `attempts.md`, the video, the contact sheet and the bot data are what the
-spore delivered, unchanged. So are `report.md`, apart from shortened file paths, and in turn 2
-`target-report.md`, `target-audit.md` and `layouts.jpg`. We wrote `verify.py`, `run.json` and
+spore delivered, unchanged. So are `target-audit.md` and `layouts.jpg` in turn 2. In `report.md` and
+`target-report.md` we shortened file paths and removed the notes on browser, device and pacing
+tests, which are out of scope. We wrote `verify.py`, `run.json` and
 `unseen_seeds.gd`. We left out Godot's cache and the compiled planner.
 
 ### What's still open

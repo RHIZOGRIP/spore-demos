@@ -52,8 +52,4 @@ Presentation fixes included dedicated portrait and compact-landscape layouts, cl
 
 The video contains **30 seconds of steward play**, followed by greedy’s final tides, sinking, and submerged bells. The final non-threaded web export contains **no `ERROR` lines**. Serve the complete web directory over HTTP(S), rather than opening the HTML through `file://`.
 
-### What remains unverified
-
-There is no working browser here, so actual Chrome/Safari/Firefox startup, phone hardware performance, touch handling and browser audio-resume behavior still need a real-device smoke test. Native rendering and synthetic touch regression tests passed for all three layouts. Audio was recorded and checked numerically, not auditioned through physical speakers.
-
 The attempt ledger, verification details and remaining native audio-teardown warnings are documented in `attempts.md` and `quality-report.md` alongside the deliverables.

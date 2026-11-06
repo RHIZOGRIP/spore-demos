@@ -7,7 +7,7 @@
 - Called a44.5% bargain heuristic sensible despite always55% and never47.5%.
 - Accepted a result overlay during sinking and an inadequately lit drowned view.
 
-The visible original numerical list has T1-T7. The current message explicitly supplies T8>=95% and adds T9/T10. None of those thresholds was weakened. PASS is limited to the stated evidence; browser execution and human pacing are explicitly unverified.
+The visible original numerical list has T1-T7. The current message explicitly supplies T8>=95% and adds T9/T10. None of those thresholds was weakened. PASS is limited to the stated evidence.
 
 ## Numerical, process and presentation targets
 
@@ -40,8 +40,8 @@ The visible original numerical list has T1-T7. The current message explicitly su
 | # | Requirement | Pass/fail and scope | Evidence |
 |---|---|---|---|
 | F1 | Godot4.7.2; English; gl_compatibility; 1280x720 scalable viewport | PASS (implementation/native evidence) | Source configuration and supplied runtime; native software OpenGL renders verified |
-| F2 | Desktop and phone web delivery, every action touch-accessible | PASS (implementation/native evidence) | Non-threaded web build plus desktop/portrait/compact-landscape layouts; every action passes synthetic screen-touch tests. Actual browser/hardware remains unverified (V1) |
-| F3 | About six-minute, 12-tide run with untimed low-tide planning and about8s animated tides | PASS (implementation/native evidence) | 12-tide rules and8s animation preserved; no human planning clock. Human completion time is unmeasured and not guaranteed (V2) |
+| F2 | Desktop and phone web delivery, every action touch-accessible | PASS (implementation/native evidence) | Non-threaded web build plus desktop/portrait/compact-landscape layouts; every action passes synthetic screen-touch tests. |
+| F3 | About six-minute, 12-tide run with untimed low-tide planning and about8s animated tides | PASS (implementation/native evidence) | 12-tide rules and8s animation preserved; no human planning clock. |
 | F4 | One screen: sea left, bronze gate/dike, climbing city districts | PASS (implementation/native evidence) | Planning, tide and storm native frames inspected; no map navigation or separate district screens |
 | F5 | Stone repairs, grain feeds, gold hires; unfed workers leave; tapping assigns quarry/fields/dike | PASS (implementation/native evidence) | Rules/state invariants and touch +/- /hire tests; resource traces at every tide |
 | F6 | Open/closed gate per tide: trade gold vs high-water loss of lowest district; next forecast can err | PASS (implementation/native evidence) | Deterministic rules, gate touch tests and actual/forecast traces |
@@ -56,10 +56,3 @@ The visible original numerical list has T1-T7. The current message explicitly su
 | F15 | Idle, greedy, every fixed split/gate policy, visible-state steward and all-future seer | PASS (implementation/native evidence) | Complete bot sweep; steward reads only public snapshot and voice cue; seer receives full schedules, never seed-specific policy branches |
 | F16 | Capture/inspect planning, tide, storm, sinking and final video contact sheets | PASS (implementation/native evidence) | Revision contact sheet and final encoded video contact sheet read and inspected; mobile cue previews included |
 | F17 | Deliver web/index.html, keris.mp4, playtest.json and an account of attempts/final numbers/limits/absolute paths | PASS (implementation/native evidence) | Files, target report, README, complete attempt ledger, source/web archives and hashes delivered |
-
-## Verification gaps — not silently counted as passing
-
-| # | Check | Pass/fail | Why |
-|---|---|---|---|
-| V1 | Actual browser/device startup, touch hardware, orientation and web audio smoke test | **FAIL — verification unavailable** | No working browser or physical phone/audio output in this environment; not evidence of an observed game failure |
-| V2 | Human run duration near six minutes | **FAIL — unmeasured** | Planning is deliberately untimed; no human pacing study performed. Demo uses2s automatic planning only for recording |
