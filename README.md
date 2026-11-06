@@ -11,6 +11,18 @@ paragraph of protocol.
 | [Sphere grid](rhino/) | Rhino 8 | run once, Windows with spore in WSL 2 |
 | [Kêr-Is](godot/keris/) | Godot 4.7 | two turns, game, videos, bot data and checks included |
 
+## What these demos show
+
+A spore working by itself for a long time, on complex work in several phases, from one prompt or a
+few. It builds, measures, finds what failed and carries on until the result holds.
+
+They don't show:
+
+- **Finished work.** A real game or a real Blender production would take more turns and a more
+  detailed scope.
+- **The intelligence of a model.** These demos are about spore, not the model behind it. A different
+  model brings different intelligence to the same prompt.
+
 ## How it works
 
 1. You start the app with the bridge, a script of under 150 lines.
