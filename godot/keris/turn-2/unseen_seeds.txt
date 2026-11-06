@@ -1,0 +1,14 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+steward 1216/2000 60.8
+never 944/2000 47.2
+always 1091/2000 54.55
+closed 106/2000 5.3
+no_repair 0/2000 0.0
+greedy 0/2000 0.0
+idle 0/2000 0.0
+fixed333 12/2000 0.6
+steward vs always: steward only 315, always only 190
+steward vs never: steward only 324, never only 52
+voice hollow offers 1757 mean damage 87.6 heavy(>=65) 99.3%
+voice warm offers 3073 mean damage 44.2 heavy(>=65) 7.4%
+voice wavering offers 1662 mean damage 69.8 heavy(>=65) 63.5%

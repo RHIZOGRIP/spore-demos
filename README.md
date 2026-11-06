@@ -1,14 +1,15 @@
 # spore demos
 
-[Spore](https://github.com/RHIZOGRIP/spore) piloting complex software, with no plugin. A small
-socket bridge runs inside the app, and the agent writes its own client from one paragraph of
-protocol.
+[Spore](https://github.com/RHIZOGRIP/spore) piloting complex software, with no plugin. In most
+demos a small socket bridge runs inside the app, and the agent writes its own client from one
+paragraph of protocol.
 
 | Demo | App | Status |
 |---|---|---|
 | [Chain reaction](blender/chain-reaction/) | Blender | run once, video, telemetry and checks included |
 | [Lighthouse](blender/lighthouse/) | Blender | run once, renders included |
 | [Sphere grid](rhino/) | Rhino 8 | run once, Windows with spore in WSL 2 |
+| [Kêr-Is](godot/keris/) | Godot 4.7 | two turns, game, videos, bot data and checks included |
 
 ## How it works
 
@@ -21,6 +22,9 @@ protocol.
 The bridge takes one JSON line per connection, `{"token": "...", "code": "<Python>"}`, runs the code
 inside the app, and answers one JSON line. Each app has its own bridge because each runs code on
 its main thread in its own way. The protocol is the same.
+
+The [Godot demo](godot/) needs no bridge. Godot runs from the command line, so the spore runs it
+itself, inside its sandbox.
 
 ## Before you start
 

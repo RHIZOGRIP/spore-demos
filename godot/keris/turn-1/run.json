@@ -1,0 +1,25 @@
+{
+  "spore": "1.57.0",
+  "godot": "4.7.2.stable.official.ed1daf0bf",
+  "weston": "14.0.2",
+  "model": "chatgpt/gpt-6.1-sol",
+  "billing": "ChatGPT plan, not metered",
+  "machine": "Intel i9-13900H, 15 GiB RAM, integrated Iris Xe graphics, Debian 13",
+  "started_at": "2026-11-05T20:50:37Z",
+  "ended_at": "2026-11-05T21:20:57Z",
+  "wall_seconds": 1820,
+  "turn": 1,
+  "rounds": 79,
+  "tool_calls": 79,
+  "balance_attempts": 6,
+  "images_looked_at": 4,
+  "seeds_per_policy": 200,
+  "fixed_strategies": 110,
+  "video_seconds": 65,
+  "tokens": {
+    "input": 2977960,
+    "cache_read": 1087360,
+    "output": 30575,
+    "thinking": 15576
+  }
+}

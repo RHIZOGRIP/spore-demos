@@ -1,0 +1,62 @@
+[
+  {
+    "id": "T1",
+    "source": "Original",
+    "target": "Idle loses before tide 7 on at least 95% of seeds",
+    "check": "idle_loses_before_7"
+  },
+  {
+    "id": "T2",
+    "source": "Original",
+    "target": "Greedy win rate at most 5%",
+    "check": "greedy_at_most_5"
+  },
+  {
+    "id": "T3",
+    "source": "Original",
+    "target": "Best of every integer fixed split / both gate policies wins at most 15%",
+    "check": "fixed_at_most_15"
+  },
+  {
+    "id": "T4",
+    "source": "Original",
+    "target": "Steward win rate from 40% to 70% inclusive",
+    "check": "steward_40_to_70"
+  },
+  {
+    "id": "T5",
+    "source": "Original",
+    "target": "Never-open ablation reduces steward win rate by at least 20 percentage points",
+    "check": "closed_drop_20"
+  },
+  {
+    "id": "T6",
+    "source": "Original",
+    "target": "No-repair ablation reduces steward win rate by at least 20 points",
+    "check": "no_repair_drop_20"
+  },
+  {
+    "id": "T7",
+    "source": "Original",
+    "target": "Accepting bargains helps some steward runs and ruins others",
+    "check": "bargains_help_and_ruin"
+  },
+  {
+    "id": "T8",
+    "source": "Current message, now explicit",
+    "target": "Seer wins at least 95% of seeds",
+    "check": "seer_at_least_95"
+  },
+  {
+    "id": "T9",
+    "source": "Current message, added",
+    "target": "Selective steward beats otherwise identical always-accept steward",
+    "check": "selective_beats_always"
+  },
+  {
+    "id": "T10",
+    "source": "Current message, added",
+    "target": "Selective steward beats otherwise identical never-accept steward",
+    "check": "selective_beats_never"
+  }
+]
