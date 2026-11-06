@@ -170,7 +170,8 @@ possibly a failure.
 
 ## Play it
 
-Open `turn-2/game/project.godot` in Godot 4.7.2 and press F5, or run `godot4 --path turn-2/game`. The
+[Play it in your browser](https://play.rhizogrip.com/keris/index.html). To run the source, open
+`turn-2/game/project.godot` in Godot 4.7.2 and press F5, or run `godot4 --path turn-2/game`. The
 game takes a mouse or touch, with no keyboard shortcuts. Turn 1's game is in `turn-1/game/`, for
 comparison.
 
