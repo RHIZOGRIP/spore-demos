@@ -32,8 +32,8 @@ They don't show:
    the task is done. Where the task produces images, it looks at them and fixes what is wrong.
 
 The bridge takes one JSON line per connection, `{"token": "...", "code": "<Python>"}`, runs the code
-inside the app, and answers one JSON line. Each app has its own bridge because each runs code on
-its main thread in its own way. The protocol is the same.
+inside the app, and answers one JSON line. Each app with a bridge has its own, because each runs
+code on its main thread in its own way. The protocol is the same.
 
 The [Godot demo](godot/) needs no bridge. Godot runs from the command line, so the spore runs it
 itself, inside its sandbox.
